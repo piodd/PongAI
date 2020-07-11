@@ -29,12 +29,12 @@ dostepne "sterowanie"
 "p" spowalnia gre dzięki czemu można zobaczyć co się dzieje
 "o" z powrotem przyspiesza gre 
 
-"l" gra przełacza się w tryp gracz vs AI 
+"L" gra przełacza się w tryp gracz vs AI 
   gracz przejmuje konrole nad gracz 1 :
   "w" w góre
   "s" w du 
   
-  aby AI naczyło sie grać należy uruchomić gre i zostawić na kilka minut na najwyższym tempie (czas zależy od posiadanego sprzetu oraz szcześcia gdyż sieć neuronowa uczy się niedetermistycznie )
+  aby AI naczyło sie grać należy uruchomić gre i zostawić na kilka minut na najwyższym tempie (czas zależy od posiadanego sprzetu oraz szcześcia gdyż sieć neuronowa uczy się   niedetermistycznie )
   
   można co jakiś czas kliknoć "p" i zobaczyć czy już umie w miare odbijać piłeczke.
   
@@ -69,7 +69,7 @@ the game is set at maximum speed
 "p" slows down the game so you can see what's going on
 "o" speeds up the game again
 
-"l" game switches to player vs AI mode
+"L" game switches to player vs AI mode
   the player takes control over player 1:
   "w" up
   "s" down
