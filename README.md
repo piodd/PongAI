@@ -4,6 +4,8 @@ Pong+simple_neutral_network
 
  English description below
  
+ readme.txt is better 
+ 
  ==============================================
  
  GUI jeszcze nie gotowe więc aby uruchomić gre gracz vs gracz należy uruchomić plik Window
