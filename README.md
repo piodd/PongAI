@@ -67,6 +67,8 @@ dostepne "sterowanie"
   
   całośc powtarza się (jak na razie non-stop aż użytkownik wyłaczy program lub klinknie "L") 
   
+  oczywiście do Ponga można napisać AI w znacznie prostrzy sposób (prosty warunek if ball.pos_y<paddle_pos_y to w góre (: ,czy nawet dokładnie obliczyć miejsce przelotu piłki i ustawić tam paletke) lecz ideą było użycie prostej sięci na prostym przypadku (dzieki czemu łatwo ocenić czy wszystko jest jak należy) 
+  
   
   =================================================
   
