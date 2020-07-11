@@ -40,6 +40,32 @@ dostepne "sterowanie"
   
   Pózniej mam zamiar dodać kilka zapisanych sieci które już umieją grać aby można było od razu zagrać przeciwko t
   
+  
+  sieć posiada 4 warstwy
+  każda warstwa posiada 7 neuronów 
+  sieć jest jednokierunkowa 
+  połoczenie miedzy warstwami każdy z każdym
+  
+  Warstwa \\ Wewnetrzna(1)\\ Wewnetczna(2) //  Wyjścia
+  Wejścia \\ Wewnetrzna(1)\\ Wewnetrzna(2) //  Wyjście
+  
+  W pongu wykorzystuje tylko 6 neuronów wejściowych ( jeden jest zawsze =0) 
+  oraz jedynie 2 neurony wyjścia e_1,e_2 (zasada jest prosta jeśli e_1>e_2 to sieć idzie w góre a jeśli e_1<e_2 to idzie w du ) 
+  
+  Nauka polega na graniu sieć vs sieć 
+  Wpierw jest tworzone X sięci (domyślnie 10) 
+  nastepnie każda sieć rozgrywa 2 macze przeciw innym siecią 
+  graja z limitem czasowym ( GUI nie gotowe wiec można zobaczyć ten limit tylko z poziomu codu ) 
+  po skończonym czasie każda sieć dostaje "ocene" (oceny sumuja sie w ramach 1 generacji ) 
+  
+  po rozegraniu wszystkich meczy w "generacji"
+  kilka najlepszych sieci "przeżywa " i na ich podstawie są tworzone sieci do nastepnej generacji
+  
+  z każda nastepna generacja zmiany są coraz mniejsze tzn. miedzy 1-2 generacja wartość z każdej krawedzi może zmieić się nawet o 0.3 a już w 10 generacji o ok 0.15
+  
+  całośc powtarza się (jak na razie non-stop aż użytkownik wyłaczy program lub klinknie "L") 
+  
+  
   =================================================
   
   
